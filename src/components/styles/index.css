@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Megrim|Raleway:300');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #b9f2e6;
+    font-family: 'Raleway', sans-serif;
+    width: 100vw;
+}
+
+.app-container {
+    width: 100vw; 
+    padding-top: 11vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10pt 25pt 10pt 15pt;
+    border-radius: 20pt;
+    margin: 0 15pt 15pt 15pt;
+    background-color: #49beaa;
+    color: #060b0e;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    text-shadow: rgba(255, 255, 255, 0.212) 1px 1px 1px;
+}
+
+.app-container > a {
+    text-decoration: none;
+}
+
+.resume-icon {
+    height: 30pt;
+    width: 30pt;
+    margin-right: 10pt;
+    filter: drop-shadow(rgba(255, 255, 255, 0.171) 2px 2px 5px)
+}
+
+@media all and (min-width: 750px){
+    .resume-button {
+        font-size: 3vw;
+        margin-bottom: 30pt;
+    }
+
+    .resume-icon {
+        height: 50pt;
+        width: 50pt;
+        margin-right: 25pt;
+        margin-left: 10pt;
+    }
+}
+
+@media all and (min-width: 1025px){
+    .resume-button {
+        font-size: 1vw;
+        margin-bottom: 30pt;
+    }
+
+    .resume-icon {
+        height: 30pt;
+        width: 30pt;
+        margin-right: 15pt;
+        margin-left: 10pt;
+    }
+}

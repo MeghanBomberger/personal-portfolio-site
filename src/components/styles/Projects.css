@@ -1,0 +1,160 @@
+.project-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10pt 15pt 10pt;
+    padding-top: 35pt;
+    border-top: #37687c3b solid 1px;
+}
+
+.project-card:nth-child(1){
+    border-top: none;
+}
+
+.project-card > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    color: #437f97;
+    text-align: center; 
+}
+
+.project-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+    color: #437f97;
+    text-align: center;
+    margin-top: 10pt;
+}
+
+.project-blurb {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    font-style: italic;
+    color: #37697c;
+    text-align: center;
+    margin-top: 10pt;
+}
+
+.cover {
+    width: 80vw;
+    outline: none;
+    border-radius: 30pt;
+}
+
+.use-icons-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5pt 30vw 25pt 30vw;
+}
+
+.use-icon {
+    width: 9vw;
+    height: calc(9vw);
+    margin: 5pt 10pt 7pt 10pt;
+}
+
+.deployment-status {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10pt;
+}
+
+.deployment-status > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    color: #37697c;
+    text-align: center;
+}
+
+.deployment-status > a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    color: #37697c;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+
+.github-icon {
+    width: 8vw;
+    height: calc(8vw);
+    margin: 10pt 46vw 10pt 46vw;
+}
+
+.deploy-icon {
+    width: 8vw;
+    height: calc(10vw);
+    margin: 10pt 5pt 10pt 10pt;
+}
+
+@media all and (min-width: 750px){
+    .project-container {
+        padding: 0 20vw 0 20vw;
+    }
+
+    .project-card {
+        margin: 0 10vw 0 10vw;
+    }
+
+    .project-name {
+        font-size: 22pt;
+    }
+
+    .project-blurb {
+        font-size: 18pt;
+        font-weight: 500;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 10pt;
+    }
+
+    .project-card > p {
+        font-size: 17pt;
+    }
+
+    .deployment-status > a {
+        font-size: 16pt;
+    }
+
+    .cover {
+        width: 60vw;
+    }
+
+    .use-icon {
+        width: 7vw;
+        height: calc(7vw);
+    }
+
+    .deploy-icon {
+        width: 4vw;
+        height: calc(5.5vw);
+        margin-bottom: 15pt;
+    }
+
+    .github-icon {
+        width: 4vw;
+        height: calc(4vw);
+        margin-bottom: 15pt;
+    }
+}
+
+@media all and (min-width: 1025px){
+    .cover {
+        width: 25vw;
+    }
+}

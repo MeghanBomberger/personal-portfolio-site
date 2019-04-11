@@ -1,0 +1,48 @@
+.footer-container {
+    /* position: absolute;
+    bottom: 0; */
+    height: 10vh;
+    width: 100vw;
+    background: linear-gradient(#437f97b0, #437f977e), url("https://source.unsplash.com/nI7knd5sQfo/1600x900");
+    background-size: cover, cover;
+    background-position: center, top;
+    filter: drop-shadow(#172b3344 -2px -2px 4px) drop-shadow(#0e1a1f42 -5px -5px 5px);
+    box-shadow: inset rgba(255, 255, 255, 0.219) 1px 1px 5px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    display: flex;
+    flex-direction: coloumn;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container > .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+}
+
+.footer-container > .menu > a {
+    color: #a7dae2e0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.5vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 5pt;
+}
+
+@media all and (min-width: 750px){
+    .footer-container > .menu > a {
+        font-size: 4vw;
+        margin: 0 3vw 2vh 3vw;
+    }
+}
+
+@media all and (min-width: 1025px){
+    .footer-container > .menu > a {
+        font-size: 2vw;
+        margin: 0 3vw 2vh 3vw;
+    }
+}

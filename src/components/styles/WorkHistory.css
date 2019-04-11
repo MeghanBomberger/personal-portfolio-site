@@ -1,0 +1,120 @@
+.work-history-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding-bottom: 20pt;
+}
+
+.work-history-container > h1 {
+    width: 100%;
+    color: #366679;
+    font-family: 'Megrim', cursive;
+    font-size: 9vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.job-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    margin: 15pt; 
+    font-family: 'Raleway', sans-serif;
+    color: #336072;
+}
+
+.job-title {
+    width: 100%;    
+    font-size: 6.5vw;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 25pt;
+    border-top: rgba(61, 114, 134, 0.432) solid 1px;
+}
+
+.job-card > h2 {
+    width: 100%; 
+    font-size: 5.5vw;
+    /* font-style: italic; */
+    font-weight: 500;
+    text-align: left;
+}
+
+.job-card > h3 {
+    width: 100%; 
+    font-size: 5vw;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+}
+
+.job-card > ul li {
+    width: 100%; 
+    font-size: 5.5vw;
+    font-weight: 500;
+    text-align: left;
+    list-style-position: outside;
+    margin-left: -10pt;
+    color: #264755;
+}
+
+@media all and (min-width: 750px){
+    .work-history-container > h1 {
+        font-size: 6vw;
+    }
+
+    .job-card {
+        line-height: 225%;
+        padding: 0 10vw 0 10vw;
+    }
+
+    .job-title {
+        font-size: 3.5vw;
+    }
+
+    .job-card > h2  {
+        font-size: 3.5vw;
+    }
+
+    .job-card > h3 {
+        font-size: 3vw;
+    }
+
+    .job-card > ul li {
+        font-size: 2.75vw
+    }
+}
+
+@media all and (min-width: 1025px){
+    .work-history-container > h1 {
+        font-size: 4vw;
+    }
+    
+    .job-card {
+        width: 100%;
+        padding: 0 10vw 0 10vw;
+    }
+
+    .job-title {
+        font-size: 2vw;
+    }
+
+    .job-card > h2  {
+        font-size: 1.75vw;
+    }
+
+    .job-card > h3 {
+        font-size: 1.5vw;
+    }
+
+    .job-card > ul {
+        width: 100%;
+    }
+
+    .job-card > ul li {
+        font-size: 1.5vw;
+        width: 100%;
+    }
+}

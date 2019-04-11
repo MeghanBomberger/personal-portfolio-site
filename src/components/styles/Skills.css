@@ -1,0 +1,73 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50pt 10pt 20pt 10pt;
+}
+
+.skills-container > h1 {
+    width: 100%;
+    color: #437f97;
+    font-family: 'Megrim', cursive;
+    font-size: 7.5vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.skills-container > h2 {
+    width: 100%;
+    color: #437f97;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5.5vw;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 15pt;
+}
+
+.badge-icon {
+    width: 19vw;
+    height: 19vw;
+    margin: 10pt;
+    border-radius: 5pt;
+    filter: drop-shadow(#437f97ad 1px 1px 3px) drop-shadow(#2d56667c 3px 3px 5px);
+}
+
+@media all and (min-width: 750px){
+    .skills-container > h2 {
+        margin-bottom: 5pt;
+        margin-top: 30pt;
+    }
+
+    .badge-icon {
+        width: 10vw;
+        height: calc(10vw);
+        margin: 5pt 15pt 5pt 15pt;
+    }
+}
+
+@media all and (min-width: 1025px){
+    .skills-container {
+        margin-left: 11vw;
+        margin-right: 11vw;
+    }
+
+    .skills-container > h1 {
+        font-size: 3.5vw;
+    }
+
+    .skills-container > h2 {
+        font-size: 2vw;
+        text-align: left;
+        margin-left: 2vw;
+        margin-top: 50pt;
+        text-shadow: #437f97ad 1px 1px 5px;
+    }
+
+    .badge-icon {
+        width: 6vw;
+        height: calc(6vw);
+        margin: 5pt 15pt 5pt 15pt;
+    }
+}
