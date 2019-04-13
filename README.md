@@ -6,4 +6,5 @@ This is simply my personal portfolio site.
 
 * create-reate-app
 * react-router-dom
-* react-transition-group# personal-portfolio-site
+* react-transition-group
+
