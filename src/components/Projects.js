@@ -24,6 +24,7 @@ import Mario2 from './images/screenshots/Mario2.png'
 import Mario3 from './images/screenshots/Mario3.png'
 import Mario4 from './images/screenshots/Mario4.png'
 import Mario5 from './images/screenshots/Mario5.png'
+import PickAPupper from './images/screenshots/PickAPupper.png'
 import YarnBomb1 from './images/screenshots/YarnBomb1.png'
 import YarnBomb2 from './images/screenshots/YarnBomb2.png'
 import YarnBomb3 from './images/screenshots/YarnBomb3.png'
@@ -32,48 +33,6 @@ import YarnBomb4 from './images/screenshots/YarnBomb4.png'
 const Projects = () => {
     const projectsData = [
         {
-            name: "Simple Axios Todo",
-            coverImg: [AxiosToDos],
-            class: "axios-todos",
-            blurb: "Basic to do site.",
-            deploylink: "http://axios-simple-todo-exercise.surge.sh/",
-            deployhost: "Surge",
-            deployicon: Surge,
-            githublink: "https://github.com/MeghanBomberger/simple-axios-todo",
-            used: [
-                {
-                    name: "HTML",
-                    icon: HTMLIcon
-                },{
-                    name: "CSS",
-                    icon: CSSIcon
-                },{
-                    name: "Javascript",
-                    icon: JavaScriptIcon
-                }
-            ]
-        },{
-            name: "Mario Pest Control",
-            coverImg: [Mario1],
-            class: "mario-pest",
-            blurb: "Quick voice display from Mario to Peach for pest removal services.",
-            deploylink: "http://mario-pest-control-exercise.surge.sh/",
-            deployhost: "Surge",
-            deployicon: Surge,
-            githublink: "https://github.com/MeghanBomberger/mario-pest-control",
-            used: [
-                {
-                    name: "HTML",
-                    icon: HTMLIcon
-                },{
-                    name: "CSS",
-                    icon: CSSIcon
-                },{
-                    name: "Javascript",
-                    icon: JavaScriptIcon
-                }
-            ]
-        },{
             name: "Yarn Bomb",
             coverImg: [YarnBomb1],
             class: "yarn-bomb",
@@ -104,6 +63,72 @@ const Projects = () => {
                 },{
                     name: "Node.js",
                     icon: NodeJSIcon
+                }
+            ]
+        },{
+            name: "Pick a Pupper",
+            coverImg: [PickAPupper],
+            class: "pick-a-pupper",
+            blurb: "Inspired by the twitter account WeRateDogs",
+            deploylink: "http://pick-a-pupper.surge.sh",
+            deployhost: "Surge",
+            deployicon: Surge,
+            githublink: "https://github.com/MeghanBomberger/pick-a-pupper",
+            used: [
+                {
+                    name: "HTML",
+                    icon: HTMLIcon
+                },{
+                    name: "CSS",
+                    icon: CSSIcon
+                },{
+                    name: "Javascript",
+                    icon: JavaScriptIcon
+                },{
+                    name: "React",
+                    icon: ReactIcon
+                }
+            ]
+        },{
+            name: "Simple Axios Todo",
+            coverImg: [AxiosToDos],
+            class: "axios-todos",
+            blurb: "Basic to do site.",
+            deploylink: "http://axios-simple-todo-exercise.surge.sh/",
+            deployhost: "Surge",
+            deployicon: Surge,
+            githublink: "https://github.com/MeghanBomberger/simple-axios-todo",
+            used: [
+                {
+                    name: "HTML",
+                    icon: HTMLIcon
+                },{
+                    name: "CSS",
+                    icon: CSSIcon
+                },{
+                    name: "Javascript",
+                    icon: JavaScriptIcon
+                }
+            ]
+        },{
+            name: "Mario Pest Control",
+            coverImg: [Mario1],
+            class: "mario-pest",
+            blurb: "Quick invoice display from Mario to Peach for pest removal services.",
+            deploylink: "http://mario-pest-control-exercise.surge.sh/",
+            deployhost: "Surge",
+            deployicon: Surge,
+            githublink: "https://github.com/MeghanBomberger/mario-pest-control",
+            used: [
+                {
+                    name: "HTML",
+                    icon: HTMLIcon
+                },{
+                    name: "CSS",
+                    icon: CSSIcon
+                },{
+                    name: "Javascript",
+                    icon: JavaScriptIcon
                 }
             ]
         }

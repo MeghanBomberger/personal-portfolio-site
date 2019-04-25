@@ -27,8 +27,8 @@
 }
 
 .badge-icon {
-    width: 19vw;
-    height: 19vw;
+    width: 5vw;
+    height: 5vw;
     margin: 10pt;
     border-radius: 5pt;
     filter: drop-shadow(#437f97ad 1px 1px 3px) drop-shadow(#2d56667c 3px 3px 5px);

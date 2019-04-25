@@ -46,7 +46,8 @@
 }
 
 .cover {
-    width: 80vw;
+    height: 50vh;
+    width: auto;
     outline: none;
     border-radius: 30pt;
 }
@@ -132,7 +133,7 @@
     }
 
     .cover {
-        width: 60vw;
+        /* width: 60vw; */
     }
 
     .use-icon {
@@ -154,7 +155,7 @@
 }
 
 @media all and (min-width: 1025px){
-    .cover {
+    /* .cover {
         width: 25vw;
-    }
+    } */
 }
